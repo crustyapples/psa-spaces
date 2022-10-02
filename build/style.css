@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background: #FFFFFF;
+  display: flex;
+  padding: 20 36;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.ab--logo {
+  max-width: 100px;
+
+}
+
+.hero {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ab--photogrid {
+  max-width: 400;
+  align-self: center; 
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 16;
+}
+
+.ab--desc {
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.card--main {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--photo {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+
