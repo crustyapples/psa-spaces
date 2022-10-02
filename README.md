@@ -1,2 +1,3 @@
 # Psa-spaces
-An immersive virtual office
+
+This is the portal to enter PSA-Spaces. With built-in real-time chat
