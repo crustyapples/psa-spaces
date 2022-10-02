@@ -1,11 +1,11 @@
 import React from "react"
-import starLogo from "/Users/advait/Desktop/gitpositories/scrimba/airbnb/airbnb-clone/src/images/star.png"
+import person from "/Users/advait/Desktop/gitpositories/psa-spaces/psa-spaces/src/images/person.png"
 
 
 export default function Card(props) {
     let badgeText
     if (props.item.openSpots === 0) {
-        badgeText = "SOLD OUT"
+        badgeText = "FULL"
     } else if (props.item.location === "Online") {
         badgeText = "ONLINE"
     }
@@ -17,14 +17,15 @@ export default function Card(props) {
             <div className="card--desc">
                 
                 <div className="card--stats">
-                    <img className="card--star" src={starLogo} alt="star"></img>
-                    <span>{props.item.stats.rating}</span>
-                    <span className="gray">({props.item.stats.reviewCount}) • </span>
-                    <span className="gray">{props.item.location}</span>
+                    <img className="card--star" src={person} alt="person"></img>
+                    <span>{props.item.openSpots}</span>
+                    <span className="gray"> /30</span>
+                    {/* <span className="gray">{props.item.location}</span> */}
                 </div>
                 
-                <p className="card--title">{props.item.title}</p>
-                <p className="card--price"><span className="bold">From ${props.item.price} / </span><span>person</span></p>
+                <p className="card--title"><span className="bold">{props.item.title}</span></p>
+                {/* <p className="card--price"><span className="bold">From ${props.item.price} / </span><span>person</span></p> */}
+                <p className="card--price">{props.item.description}</p>
             
             </div>
         </div>
