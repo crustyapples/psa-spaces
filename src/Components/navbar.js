@@ -1,5 +1,5 @@
 import React from "react"
-import psaLogo from "/Users/advait/Desktop/gitpositories/psa-spaces/psa-spaces/src/images/psa-logo.png"
+import psaLogo from "../images/psa-logo.png"
 
 export default function Navbar() {
     return (

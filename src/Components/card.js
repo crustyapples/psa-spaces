@@ -1,5 +1,5 @@
 import React from "react"
-import person from "/Users/advait/Desktop/gitpositories/psa-spaces/psa-spaces/src/images/person.png"
+import person from "../images/person.png"
 
 
 export default function Card(props) {

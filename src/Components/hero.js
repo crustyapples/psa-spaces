@@ -1,5 +1,5 @@
 import React from "react"
-import psaHero from "/Users/advait/Desktop/gitpositories/psa-spaces/psa-spaces/src/images/psa-hero.png"
+import psaHero from "../images/psa-hero.png"
 
 export default function Hero() {
     return (
