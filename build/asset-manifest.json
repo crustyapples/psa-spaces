@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.b2578bdd.js",
-    "static/media/photo-grid.png": "/static/media/photo-grid.294d59b66b94e0e456cf.png",
-    "static/media/katie-zaferes.png": "/static/media/katie-zaferes.8c39a93af3d2de2b3c27.png",
-    "static/media/airbnb-logo.png": "/static/media/airbnb-logo.e4424517383d14a03a24.png",
+    "main.js": "/static/js/main.bcfa74e7.js",
+    "static/media/chill-room.jpeg": "/static/media/chill-room.1815cacd31d12f77f0f6.jpeg",
+    "static/media/mountain-bike.png": "/static/media/mountain-bike.e249d8a7c9dd6935df4c.png",
+    "static/media/meeting-room.jpeg": "/static/media/meeting-room.10147487701698569710.jpeg",
+    "static/media/psa-hero.png": "/static/media/psa-hero.71417567efdcc49da0bc.png",
+    "static/media/games-room.jpeg": "/static/media/games-room.627bec8cf93f426e9320.jpeg",
+    "static/media/psa-logo.png": "/static/media/psa-logo.fae5ff70d36bdfffea8f.png",
     "index.html": "/index.html",
-    "main.b2578bdd.js.map": "/static/js/main.b2578bdd.js.map"
+    "main.bcfa74e7.js.map": "/static/js/main.bcfa74e7.js.map"
   },
   "entrypoints": [
-    "static/js/main.b2578bdd.js"
+    "static/js/main.bcfa74e7.js"
   ]
 }
